@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,26 +9,48 @@
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App > * {
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  display: block;
+  width: 80vw;
+}
+
+.increment {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  width: 50vw;
+}
+
+span {
+  text-align: center;
+}
+
+.countHistory {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.countCard {
+  margin: 10px;
+  background-color: antiquewhite;
+  color: #282c34;
+  padding: 3px;
 }
